@@ -76,7 +76,7 @@ class Push
         } catch (Exception $e) {
             $resp['status'] = $e->getCode();
             $resp['msg'] = $e->getMessage();
-            echo json_encode($res);
+            echo json_encode($resp);
         }
     }
 
